@@ -13,28 +13,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <Button
             android:id="@+id/btnRock"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="1"
+            android:onClick="onClickRock"
             android:text="グー"
             android:textSize="35sp" />
+
         <Button
             android:id="@+id/btnScissors"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="1"
+            android:onClick="onClickScissors"
             android:text="チョキ"
             android:textSize="35sp" />
+
         <Button
             android:id="@+id/btnPaper"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:layout_weight="1"
+            android:onClick="onClickPaper"
             android:text="パー"
             android:textSize="35sp" />
     </LinearLayout>
